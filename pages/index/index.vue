@@ -6,7 +6,7 @@
 				<icon type="search" />
 			</view>
 		</view>
-		<view class="image">
+		<view @click='showPopup()' class="image">
 			<image style="border-radius: 30rpx; width:90%; height:350rpx; margin-left:5%;margin-right:5% margin-top:3%"
 				src="../../image/main.png"></image>
 		</view>
@@ -30,8 +30,8 @@
 				<view class='content-item' v-for="(item,src) in contentImgSrcs" :key="src"
 					v-if="item.score>=minscore&&item.score<maxscore">
 					<block>
-						<image @click="detail(item.src,item.score)" style="border-radius:20rpx" :src="item.src" class="slide-image"
-							mode='scaleToFill' />
+						<image @click="detail(item.src,item.score)" style="border-radius:20rpx" :src="item.src"
+							class="slide-image" mode='scaleToFill' />
 						<view v-if="item.score>0" class="score">
 							<text>{{item.score}}</text>
 						</view>
@@ -42,6 +42,8 @@
 				</view>
 			</view>
 		</view>
+		<popup id='popup' bind:success="_success">
+		</popup>
 	</view>
 </template>
 
@@ -95,6 +97,18 @@
 			}
 		},
 		methods: {
+			btnClick() {
+				this.$popup({
+					imgUrl: require('../../static/code.png'), // 顶部图片
+					title: '我是标题',
+					content: '我是内容',
+					btnText: '我是按钮',
+					click: () => {
+						// 点击按钮事件
+						this.$router.push('……')
+					}
+				})
+			},
 			selectedAll: function() {
 				this.currentSelectType = 'all'
 				this.minscore = -1;
@@ -122,8 +136,27 @@
 			},
 			detail: function(src, score) {
 				uni.navigateTo({
-				      url: "../../pages/comment/comment?src="+encodeURIComponent(src)+"&score="+score
-				  })
+					url: "../../pages/comment/comment?src=" + encodeURIComponent(src) + "&score=" + score
+				})
+			},
+			onReady: function() {
+				//获得popup组件
+				this.popup = this.selectComponent("#popup");
+			},
+
+			showPopup() {
+				this.popup.showPopup();
+			},
+
+			//取消事件
+			_error() {
+				console.log('你点击了取消');
+				this.popup.hidePopup();
+			},
+			//确认事件
+			_success() {
+				console.log('你点击了确定');
+				this.popup.hidePopup();
 			},
 		}
 	}
@@ -308,5 +341,15 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		/* padding: 1% 1% 1% 1%; */
+	}
+
+	.cu-form-group .title {
+		min-width: calc(4em + 15px);
+	}
+
+	.btn-submit {
+		background-color: #1C2A86;
+		margin: 100upx 20upx;
+		color: #fff;
 	}
 </style>

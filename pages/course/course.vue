@@ -63,11 +63,11 @@
 								url: "http://player.youku.com/embed/XNTE3OTMzMDk2OA",
 								subtitle: "2.明暗素描中的线条"
 							}, {
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9acd4742-6b64-44ff-be0d-d40acb804b22/2.7.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152508Z&X-Amz-Expires=86400&X-Amz-Signature=99e6b4169bd7c4a138c2394fde6d137e596ae5969435ea800fd133187e2cc422&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTMzMTUzMg",
 								subtitle: "3.结构素描中的线条"
 							},
 							{
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/806dc53e-f34e-41c2-881f-8c9d0be4cc10/2.81.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152508Z&X-Amz-Expires=86400&X-Amz-Signature=5ee33fae3f3068b3050875db686700e3964bff727c279d078d0d194d037bcf57&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTMzMjEyOA",
 								subtitle: "4.练习画线条"
 							}
 						],
@@ -78,15 +78,15 @@
 						title: "第三课·素描正方体",
 						src: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8c1a3917-526a-4d6f-9c55-c3933c0e36b8%2F3..png?table=block&id=96c58a88-7c39-4146-88c6-33864379706a&spaceId=024a0d07-e1e8-437f-b7a6-01edf2f65e79&width=3070&userId=&cache=v2",
 						vedios: [{
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3b441975-3252-4c96-841a-34a358569d09/1..mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152508Z&X-Amz-Expires=86400&X-Amz-Signature=74247d9ed7b68e5150a1568297e5cea1368af51eadc9d9cab23e3781ae0d1c2d&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTMzMzcyOA",
 								subtitle: "1.立方体如何打形"
 							},
 							{
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/889eda98-e2f1-4382-b62f-e1737e9a5995/2..mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152508Z&X-Amz-Expires=86400&X-Amz-Signature=a2aa36588ef83590ece7e22391e05ea5ed29ecd9fa1fb5499868b98af8287add&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTMzNTczMg",
 								subtitle: "2.如何理解立方体的透视"
 							},
 							{
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0d5ed640-74e1-40dc-aba8-bd34cf2baa4d/3..mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152509Z&X-Amz-Expires=86400&X-Amz-Signature=1346ea68f58815c33c46206a69132b924317ab5b9eaff3bf4f0459dfbf158264&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTMzNjIzMg",
 								subtitle: "3.如何画立方体的边线"
 							},
 							{
