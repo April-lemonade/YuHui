@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/comment/comment"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "与绘",
+    "navigationBarBackgroundColor": "#544dff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fab3da743-1730-4003-a6b1-b06d4f278512%2Fcommunity.png?table=block&id=f80a1052-4591-4524-86a4-a126b4eaa562&spaceId=024a0d07-e1e8-437f-b7a6-01edf2f65e79&width=2560&userId=&cache=v2",
+        "iconPath": "../../image/unselected/community.png",
+        "pagePath": "pages/index/index",
+        "text": "社区"
+      },
+      {
+        "selectedIconPath": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F29bf376c-9c38-44dc-bde8-c11be5b6ea24%2Fcourse.png?table=block&id=fdf83ef0-6fe3-429a-a707-820ce71b88a8&spaceId=024a0d07-e1e8-437f-b7a6-01edf2f65e79&width=2560&userId=&cache=v2",
+        "iconPath": "../../image/unselected/course.png",
+        "pagePath": "pages/course/course",
+        "text": "课程"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
