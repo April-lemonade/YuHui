@@ -90,15 +90,15 @@
 								subtitle: "3.如何画立方体的边线"
 							},
 							{
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ddb085b2-2579-480e-a765-9b24ce4e75ef/4..mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152508Z&X-Amz-Expires=86400&X-Amz-Signature=e85818bd1abc338ac82af6792ac62c0b72bcbd38e79ca539b818bdf915a17ed6&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTU1NDQ1Ng",
 								subtitle: "4.如何画立方体的暗面"
 							},
 							{
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b1c7f4c9-0c3d-4d09-917e-65da7a8f06d0/5..mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152508Z&X-Amz-Expires=86400&X-Amz-Signature=732d8f60eb22969acfbdd7416a9463f54b1ac2ad16d6c2101f5f8db2322032cc&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTU1NDgzMg",
 								subtitle: "5.如何画立方体的投影"
 							},
 							{
-								url: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5bb00e60-4a07-43c5-b2d8-e891e54734a3/6..mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210706T152508Z&X-Amz-Expires=86400&X-Amz-Signature=1468a5deb602217c57403ee5a96837901c54d230e94d2a8b8ad5e566275fd796&X-Amz-SignedHeaders=host",
+								url: "http://player.youku.com/embed/XNTE3OTU1OTM2MA",
 								subtitle: "6.如何画立方体的背景"
 							}
 						],

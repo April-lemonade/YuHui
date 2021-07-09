@@ -9,7 +9,7 @@
         /* 5+App特有相关 */
         "usingComponents" : true,
         "nvueCompiler" : "uni-app",
-		"runmode" : "liberate",
+        "runmode" : "liberate",
         "splashscreen" : {
             "alwaysShowBeforeRender" : true,
             "waiting" : true,
